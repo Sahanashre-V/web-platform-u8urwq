@@ -1,6 +1,4 @@
-*{
-  background-color: lightpink;
-}
+
 #kalvium{
   color:red;
 }
@@ -17,4 +15,24 @@ table,th,td{
 th,td{
   padding:15px;
 }
+tr:nth-child(even){
+  background-color:whitesmoke;
+}
+tr:nth-child(odd){
+background-color: white;
+}
+body{
+  background-color: lightpink;
+}
+th{
+  background-color: red;
+  color:white;
+}
+#lunch{
+  writing-mode: vertical-lr;
+  text-align: center;
+  text-orientation: upright;
+}
+
+
 
