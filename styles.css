@@ -1,7 +1,4 @@
-#kalvium {
-  color: red;
-  font-size: 53px;
-}
+
 table {
   width: 800px;
 }
@@ -36,8 +33,18 @@ th {
   text-align: center;
   text-orientation: upright;
 }
-ul li {
-  list-style-type: none;
-  display: inline-block;
+
+.courses-menu-item {
+  display: flex;
+  gap: 5px
 }
 
+.profile-icon {
+    padding: 2px;
+    background-color: red;
+    border-radius: 50%
+}
+
+.content {
+  text-align:left;
+}
