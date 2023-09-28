@@ -1,38 +1,43 @@
-
-#kalvium{
-  color:red;
+#kalvium {
+  color: red;
+  font-size: 53px;
 }
-table{
-  width:800px
+table {
+  width: 800px;
 }
-th{
+th {
   text-align: left;
 }
-table,th,td{
-  border:1px solid #000;
+table,
+th,
+td {
+  border: 1px solid #000;
   border-collapse: collapse;
 }
-th,td{
-  padding:15px;
+th,
+td {
+  padding: 15px;
 }
-tr:nth-child(even){
-  background-color:whitesmoke;
+tr:nth-child(even) {
+  background-color: whitesmoke;
 }
-tr:nth-child(odd){
-background-color: white;
+tr:nth-child(odd) {
+  background-color: white;
 }
-body{
+body {
   background-color: lightpink;
 }
-th{
+th {
   background-color: red;
-  color:white;
+  color: white;
 }
-#lunch{
+#lunch {
   writing-mode: vertical-lr;
   text-align: center;
   text-orientation: upright;
 }
-
-
+ul li {
+  list-style-type: none;
+  display: inline-block;
+}
 
